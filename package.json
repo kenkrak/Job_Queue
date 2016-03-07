@@ -1,0 +1,23 @@
+{
+  "name": "job-queue",
+  "version": "1.0.0",
+  "description": "A Job queue that services requests to get content from a given url",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "boom": "^3.1.2",
+    "hapi": "^13.0.0",
+    "kue": "^0.6.2",
+    "mongodb": "^2.1.7",
+    "request": "^2.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "job-queue"
+  },
+  "author": "Charuroopa",
+  "license": "ISC"
+}
